@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: orange;
+    text-align: center;
+    height: 120px;
+    padding: 8% 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+header h2{
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+    margin: 1.2em;
+    text-decoration: none;             
+}
+
+h2{
+    text-decoration: underline;
+    text-decoration: dotted;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.half{
+    width: 47%;
+    float: left;
+    padding: 1.5%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.course{
+    width: 17%;
+    float: left;
+    padding: 1.5%;
+    margin-bottom: 20px;
+}
+
+.price{
+    text-align: right;
+    font-weight: bold;
+}
+
+.price::before{
+    content: "$";
+}
+
+.top{
+    border: 3px double #666;
+    background-color: orange;
+    color: white;
+    text-align: center;
+
+    min-height: 100px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    border-top-right-radius: 20px;
+}
+
+.red{background-color: #900;}
+.blue{background-color: #1d3d89;}
+.violet{background-color: #5a109f;}
+.green{background-color: #18b430;}
+
+.promo{
+    width: 70%;
+    background-color: #ffce00;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0 15px 15px 0;
+
+    color: #222;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: -15px;
+    margin-top: -5px;
+}
