@@ -91,3 +91,13 @@ h2{
     margin-left: -15px;
     margin-top: -5px;
 }
+
+.footer{
+    background-color: #666;
+    height: 120px;
+    padding-inline: 8% 0;
+}
+
+.footer-bottom{
+    background-color: #111;
+}
